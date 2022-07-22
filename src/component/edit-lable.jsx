@@ -19,7 +19,7 @@ const EditLable = () => {
     const [label, setLabel] = useState(["faisal", "birth day"])
     const [newlabel, setNewlabel] = useState("")
     // this is useless
-    label="";
+    console.log(label);
     // 
     return (
         <div className="edit-label-box">
