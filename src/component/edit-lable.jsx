@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { AiOutlinePlusCircle, AiOutlineCloseCircle } from "react-icons/ai"
 // import {  AiFillEdit } from "react-icons/ai"
+import { MdDone } from "react-icons/md"
 // import { MdLabel, MdDone } from "react-icons/md"
 // import { IoMdTrash } from "react-icons/io"
 import {AiOutlineEdit} from "react-icons/ai"
@@ -18,7 +19,7 @@ const EditLable = () => {
     const [label, setLabel] = useState(["faisal", "birth day"])
     const [newlabel, setNewlabel] = useState("")
     // this is useless
-    label;
+    label="";
     // 
     return (
         <div className="edit-label-box">
