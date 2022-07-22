@@ -1,0 +1,23 @@
+.txt-card-list-title{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+.txt-card-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0px;
+
+}
+.txt-card-list-item{
+    height: auto;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+@media (max-width:450px) {
+    .txt-card-list{
+        justify-content: center;
+    }
+}

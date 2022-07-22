@@ -1,0 +1,33 @@
+.txt-card-container{
+    width: 206px;
+    border-radius: .5rem;
+    border: 1px solid gray;
+    padding: 12px;
+    position: relative;
+    cursor: pointer;
+}
+.txt-card-title{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.txt-card-content{
+    margin-top: 4px
+}
+.txt-card-btn-list{
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+    padding-top: 6px;
+}
+.txt-card-btn-list-item{
+    margin-left: 6px;
+    font-size: 1.2rem;
+}
+.txt-card-expand{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    font-size: 1.2rem;
+}

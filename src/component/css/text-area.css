@@ -1,0 +1,104 @@
+.txt-box{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    min-width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 14px 16px;
+    box-shadow:  0px 3px 8px;
+    z-index: 0;
+    position: relative;
+}
+.txt-title{
+    font-size: 1.5rem;
+    width: 100%;
+    border: 0px;
+    outline: 0px;
+    color: inherit;
+    background-color: inherit;
+}
+.txt-content{
+    color: inherit;
+    background-color: inherit;
+    font-size: 1.1rem;
+    width: 100%;
+    margin-top: 3px;
+    resize: none;
+    border: 0px;
+    outline: 0px;
+    max-height: 120px;
+}
+.txt-content::-webkit-scrollbar{
+    width: 5px;
+}
+.txt-content::-webkit-scrollbar-thumb{
+    width: 5px;
+    background-color: aqua;
+}
+.txt-btn-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0px;
+    margin: 0px;
+    padding-top: 12px;
+    border-top: 1px solid gray;
+}
+.txt-btn-list-item{
+
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-right: 14px;
+}
+.txt-btn-save,.txt-btn-close{
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-right: 14px;
+    padding: 1px 4px;
+}
+.txt-btn-save{
+    background-color: rgb(21, 189, 189);
+    border-radius: .3rem;
+}
+.txt-btn-box{
+    margin-left: auto;
+    font-size: initial;
+    display: flex;
+}
+.txt-threedot{
+    position: relative;
+}
+
+/* setting modal */
+
+.setting-list{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    background-color:white;
+    color: black;
+    width: max-content;
+    list-style: none;
+    cursor: pointer;
+    padding-left: 0px;
+    
+    margin: 0px;
+    font-size: initial;
+    box-shadow: 0px 3px 8px;
+}
+.setting-list-item{
+
+    padding: 6px;
+}
+.setting-list-item:hover{
+    background-color: lightgray;
+}
+.txt-box-expand{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
