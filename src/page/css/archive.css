@@ -1,0 +1,18 @@
+.archive-empty-logo{
+    font-size: 5rem;
+    color: grey;
+    text-align: center;
+}
+.archive-empty-title{
+    font-size: 2rem;
+    font-weight: 600;
+    color: gray;
+    text-align: center;
+}
+.archive-empty-box{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 2.5rem;
+}
