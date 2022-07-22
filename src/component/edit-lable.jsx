@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-import { AiOutlinePlusCircle, AiOutlineCloseCircle, AiFillEdit } from "react-icons/ai"
-import { MdLabel, MdDone } from "react-icons/md"
-import { IoMdTrash } from "react-icons/io"
+import { AiOutlinePlusCircle, AiOutlineCloseCircle } from "react-icons/ai"
+// import {  AiFillEdit } from "react-icons/ai"
+// import { MdLabel, MdDone } from "react-icons/md"
+// import { IoMdTrash } from "react-icons/io"
 import {AiOutlineEdit} from "react-icons/ai"
 import "./css/edit-label.css"
 import { useSelector } from 'react-redux'
@@ -13,10 +14,12 @@ const EditLable = () => {
     // const [addLabel, set] = useState(true)
     const [addLabel, setAddlabel] = useState(true)
     const [editLabel, setEditLabel] = useState(false)
-    const [editLabelName, setEditlabelName] = useState("")
+    // const [editLabelName, setEditlabelName] = useState("")
     const [label, setLabel] = useState(["faisal", "birth day"])
     const [newlabel, setNewlabel] = useState("")
-    
+    // this is useless
+    label;
+    // 
     return (
         <div className="edit-label-box">
             <div className="edit-label-head">
